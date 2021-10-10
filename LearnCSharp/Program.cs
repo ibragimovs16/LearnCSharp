@@ -1,12 +1,12 @@
-﻿using System;
+﻿using LearnCSharp.DelegatesAndEvents;
 
 namespace LearnCSharp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            _ = new DelegatesAndEventsEntryPoint();
         }
     }
 }
