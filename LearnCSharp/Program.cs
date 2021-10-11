@@ -1,4 +1,5 @@
 ﻿using LearnCSharp.DelegatesAndEvents;
+using LearnCSharp.Parallelism;
 
 namespace LearnCSharp
 {
@@ -6,7 +7,8 @@ namespace LearnCSharp
     {
         static void Main(string[] args)
         {
-            _ = new DelegatesAndEventsEntryPoint();
+            // _ = new DelegatesAndEventsEntryPoint();
+            _ = new ParallelismEntryPoint();
         }
     }
 }
