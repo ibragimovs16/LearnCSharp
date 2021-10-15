@@ -8,7 +8,7 @@ namespace LearnCSharp
         static void Main(string[] args)
         {
             // _ = new DelegatesAndEventsEntryPoint();
-            _ = new ParallelismEntryPoint();
+            // _ = new ParallelismEntryPoint();
         }
     }
 }
