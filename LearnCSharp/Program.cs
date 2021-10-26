@@ -1,4 +1,5 @@
 ﻿using System;
+using LearnCSharp.AnonymousTypeAndTuple;
 using LearnCSharp.DelegatesAndEvents;
 using LearnCSharp.ExtensionMethod;
 using LearnCSharp.IndexersAndIterators;
@@ -15,7 +16,8 @@ namespace LearnCSharp
             // _ = new ParallelismEntryPoint();
             // _ = new LinqEntryPoint();
             // _ = new ExtensionMethodEntryPoint();
-            _ = new IndexersAndIteratorsEntryPoint();
+            // _ = new IndexersAndIteratorsEntryPoint();
+            _ = new AnonymousTypeAndTupleEntryPoint();
 
             Console.ReadKey();
         }
