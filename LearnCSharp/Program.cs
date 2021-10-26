@@ -1,4 +1,5 @@
 ﻿using System;
+using LearnCSharp.AnonymousMethodsAndLambdaExpressions;
 using LearnCSharp.AnonymousTypeAndTuple;
 using LearnCSharp.DelegatesAndEvents;
 using LearnCSharp.ExtensionMethod;
@@ -17,8 +18,9 @@ namespace LearnCSharp
             // _ = new LinqEntryPoint();
             // _ = new ExtensionMethodEntryPoint();
             // _ = new IndexersAndIteratorsEntryPoint();
-            _ = new AnonymousTypeAndTupleEntryPoint();
-
+            // _ = new AnonymousTypeAndTupleEntryPoint();
+            _ = new AnonymousMethodsAndLambdaExpressionsEntryPoint();
+            
             Console.ReadKey();
         }
     }
