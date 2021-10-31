@@ -8,6 +8,7 @@ using LearnCSharp.IndexersAndIterators;
 using LearnCSharp.LINQ;
 using LearnCSharp.ObjectType;
 using LearnCSharp.Parallelism;
+using LearnCSharp.UnsafeCode;
 
 namespace LearnCSharp
 {
@@ -24,6 +25,7 @@ namespace LearnCSharp
             // _ = new AnonymousMethodsAndLambdaExpressionsEntryPoint();
             // _ = new AttributesAndReflectionEntryPoint();
             // _ = new ObjectTypeEntryPoint();
+            _ = new UnsafeCodeEntryPoint();
         
             Console.ReadKey();
         }
