@@ -6,6 +6,7 @@ using LearnCSharp.DelegatesAndEvents;
 using LearnCSharp.ExtensionMethod;
 using LearnCSharp.IndexersAndIterators;
 using LearnCSharp.LINQ;
+using LearnCSharp.ObjectType;
 using LearnCSharp.Parallelism;
 
 namespace LearnCSharp
@@ -21,8 +22,9 @@ namespace LearnCSharp
             // _ = new IndexersAndIteratorsEntryPoint();
             // _ = new AnonymousTypeAndTupleEntryPoint();
             // _ = new AnonymousMethodsAndLambdaExpressionsEntryPoint();
-            _ = new AttributesAndReflectionEntryPoint();
-
+            // _ = new AttributesAndReflectionEntryPoint();
+            // _ = new ObjectTypeEntryPoint();
+        
             Console.ReadKey();
         }
     }
